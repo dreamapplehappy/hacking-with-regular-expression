@@ -1,0 +1,16 @@
+{
+  "name": "hacking-with-regular-expression",
+  "version": "0.1",
+  "description": "learn regular expression",
+  "main": "index.js",
+  "repository": "git@github.com:dreamapplehappy/hacking-with-regular-expression.git",
+  "author": "test@test.com",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
