@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 heroText: 学会正则
-tagline: Hacking with Regular Expression
+tagline: HACKING WITH REGULAR EXPRESSION
 actionText: 快速上手 →
 actionLink: /common-regex-examples/
 features:
@@ -19,4 +19,4 @@ footer: MIT Licensed | Copyright © 2018-present dreamapplehappy
 
 ## asd
 
-## adasd
+## adasdioasd
