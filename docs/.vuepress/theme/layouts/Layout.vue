@@ -1,10 +1,10 @@
 <template>
     <ParentLayout>
         <template #sidebar-top>
-<!--            <CarbonAds />-->
+            <!--<CarbonAds />-->
         </template>
         <template #page-bottom>
-<!--            <BuySellAds />-->
+            <!--<BuySellAds />-->
         </template>
     </ParentLayout>
 </template>

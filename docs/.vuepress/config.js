@@ -1,17 +1,22 @@
 module.exports = {
-    title: '1234',
+    title: '学会正则表达式',
     description: 'Just playing around',
+    // theme: '@vuepress/vue',
     themeConfig: {
         displayAllHeaders: true,
-        logo: '/assets/img/logo.png',
+        smoothScroll: true,
+        logo: '/images/logo.png',
         nav: [
+            { text: '正则基础', link: '/elementary-knowledge/' },
+            { text: '正则进阶', link: '/learn-step-by-step/' },
             { text: '常用的正则', link: '/common-regex-examples/' },
             { text: '关于', link: '/about/' },
         ],
-        sidebar: [
-            ['/common-regex-examples/', '常用的正则表达式'],
-            ['/learn-step-by-step/', '学习资料'],
-        ],
+        sidebar: 'auto',
+        // sidebar: [
+        //     ['/common-regex-examples/', '常用的正则表达式'],
+        //     ['/learn-step-by-step/', '学习资料'],
+        // ],
         // sidebar: {
         //     '/common-regex-examples/': [
         //         '',
@@ -34,5 +39,5 @@ module.exports = {
         editLinks: true,
         // 默认为 "Edit this page"
         editLinkText: '帮助我们改善此页面！'
-    },
+    }
 }
